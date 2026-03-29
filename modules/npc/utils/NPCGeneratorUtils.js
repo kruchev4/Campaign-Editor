@@ -1,0 +1,1 @@
+export function generateNPC(){return {name:"Generated NPC",trait:"Brave"}};

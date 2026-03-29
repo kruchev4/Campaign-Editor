@@ -1,0 +1,1 @@
+import {create} from "zustand";export const useNPCStore=create(()=>({npcs:[],addNPC:(n)=>set(s=>({npcs:[...s.npcs,n]}))}));

@@ -1,0 +1,1 @@
+export default function NPCList(){return (<div className="p-4">NPC List Placeholder</div>)}
