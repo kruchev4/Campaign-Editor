@@ -1,0 +1,1 @@
+export default function QuestList(){return (<div className="p-4">Quest List Placeholder</div>)}
