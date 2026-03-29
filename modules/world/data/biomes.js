@@ -1,0 +1,1 @@
+export const biomes=[{name:"Forest",desc:"Lush woodland"},{name:"Desert",desc:"Arid sands"}];

@@ -1,0 +1,1 @@
+export default function FactionEditor(){return (<div className="p-4">Faction Editor Placeholder</div>)}
