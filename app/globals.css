@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme Engine base */
+:root {
+  --theme-background: #0d0d0f;
+  --theme-surface: #1a1a1d;
+  --theme-primary: #4f46e5;
+  --theme-secondary: #7c3aed;
+  --theme-accent: #10b981;
+  --theme-text: #e5e7eb;
+}
+
+body {
+  background: var(--theme-background);
+  color: var(--theme-text);
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
