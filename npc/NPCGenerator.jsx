@@ -1,0 +1,1 @@
+export default function NPCGenerator(){return (<div className="p-4">NPC Generator Placeholder</div>)}

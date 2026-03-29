@@ -1,0 +1,1 @@
+export const roles=["Villain","Mentor","Scout","Noble"];

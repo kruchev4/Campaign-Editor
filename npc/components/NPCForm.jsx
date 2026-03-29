@@ -1,0 +1,1 @@
+export default function NPCForm(){return (<div className="p-4">NPC Form Placeholder</div>)}

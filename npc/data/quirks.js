@@ -1,0 +1,1 @@
+export const quirks=["Talks to animals","Collects bones"];
