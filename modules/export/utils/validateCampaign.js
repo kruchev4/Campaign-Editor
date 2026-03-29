@@ -1,0 +1,1 @@
+export function validateCampaign(c){return true;}
