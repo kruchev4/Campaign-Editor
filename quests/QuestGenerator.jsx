@@ -1,0 +1,1 @@
+export default function QuestGenerator(){return (<div className="p-4">Quest Generator Placeholder</div>)}

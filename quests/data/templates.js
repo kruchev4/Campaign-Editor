@@ -1,0 +1,1 @@
+export const questTemplates=[{name:"Rescue Mission",steps:["Locate captive","Defeat guards","Extract safely"]}];

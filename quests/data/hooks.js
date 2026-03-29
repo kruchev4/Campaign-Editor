@@ -1,0 +1,1 @@
+export const questHooks=["A villager pleads for help","A strange artifact appears"];

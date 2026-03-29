@@ -1,0 +1,1 @@
+import {create} from "zustand";export const useQuestStore=create(()=>({quests:[],addQuest:(q)=>set(s=>({quests:[...s.quests,q]}))}));

@@ -1,0 +1,1 @@
+export function generateQuest(){return {title:"Generated Quest",hook:"A villager pleads for help"}};
