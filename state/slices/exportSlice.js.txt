@@ -1,0 +1,21 @@
+// /state/slices/exportSlice.js
+export const exportSlice = (set, get) => ({
+  exportCampaign: () => {
+    return {
+      world: {
+        mapImage: get().mapImage,
+        markers: get().markers,
+        regions: get().regions,
+        factions: get().factions,
+      },
+      story: {
+        nodes: get().storyNodes,
+        edges: get().storyEdges,
+      },
+      npcs: get().npcs,
+      quests: get().quests,
+      encounters: get().encounters,
+      theme: get().currentTheme,
+    };
+  },
+});

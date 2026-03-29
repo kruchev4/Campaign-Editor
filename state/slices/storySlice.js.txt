@@ -1,0 +1,22 @@
+// /state/slices/storySlice.js
+export const storySlice = (set, get) => ({
+  storyNodes: [],
+  storyEdges: [],
+
+  setNodes: (nodes) => set({ storyNodes: nodes }),
+  setEdges: (edges) => set({ storyEdges: edges }),
+
+  addNode: (node) =>
+    set({ storyNodes: [...get().storyNodes, node] }),
+
+  addEdge: (edge) =>
+    set({ storyEdges: [...get().storyEdges, edge] }),
+
+  removeNode: (id) =>
+    set({
+      storyNodes: get().storyNodes.filter((n) => n.id !== id),
+      storyEdges: get().storyEdges.filter(
+        (e) => e.source !== id && e.target !== id
+      ),
+    }),
+});

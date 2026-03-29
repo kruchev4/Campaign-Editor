@@ -1,0 +1,17 @@
+// /state/slices/worldSlice.js
+export const worldSlice = (set, get) => ({
+  mapImage: null,
+  markers: [],
+  regions: [],
+  factions: [],
+
+  setMapImage: (img) => set({ mapImage: img }),
+  addMarker: (m) => set({ markers: [...get().markers, m] }),
+  updateMarkers: (markers) => set({ markers }),
+
+  addRegion: (r) => set({ regions: [...get().regions, r] }),
+  updateRegions: (regions) => set({ regions }),
+
+  addFaction: (f) => set({ factions: [...get().factions, f] }),
+  updateFactions: (factions) => set({ factions }),
+});

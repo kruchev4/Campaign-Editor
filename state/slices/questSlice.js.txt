@@ -1,0 +1,16 @@
+// /state/slices/questSlice.js
+export const questSlice = (set, get) => ({
+  quests: [],
+
+  addQuest: (q) => set({ quests: [...get().quests, q] }),
+
+  updateQuest: (id, data) =>
+    set({
+      quests: get().quests.map((q) =>
+        q.id === id ? { ...q, ...data } : q
+      ),
+    }),
+
+  removeQuest: (id) =>
+    set({ quests: get().quests.filter((q) => q.id !== id) }),
+});

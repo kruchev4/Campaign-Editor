@@ -1,0 +1,19 @@
+// /state/slices/encounterSlice.js
+export const encounterSlice = (set, get) => ({
+  encounters: [],
+
+  addEncounter: (enc) =>
+    set({ encounters: [...get().encounters, enc] }),
+
+  updateEncounter: (id, data) =>
+    set({
+      encounters: get().encounters.map((e) =>
+        e.id === id ? { ...e, ...data } : e
+      ),
+    }),
+
+  removeEncounter: (id) =>
+    set({
+      encounters: get().encounters.filter((e) => e.id !== id),
+    }),
+});

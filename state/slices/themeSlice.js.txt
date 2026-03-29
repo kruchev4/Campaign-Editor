@@ -1,0 +1,6 @@
+// /state/slices/themeSlice.js
+export const themeSlice = (set, get) => ({
+  currentTheme: "Epic Fantasy",
+
+  setTheme: (name) => set({ currentTheme: name }),
+});

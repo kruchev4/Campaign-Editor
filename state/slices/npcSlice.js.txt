@@ -1,0 +1,17 @@
+// /state/slices/npcSlice.js
+export const npcSlice = (set, get) => ({
+  npcs: [],
+
+  addNPC: (npc) => set({ npcs: [...get().npcs, npc] }),
+
+  updateNPC: (id, data) => {
+    set({
+      npcs: get()
+        .npcs
+        .map((npc) => npc.id === id ? { ...npc, ...data } : npc),
+    });
+  },
+
+  removeNPC: (id) =>
+    set({ npcs: get().npcs.filter((npc) => npc.id !== id) }),
+});
