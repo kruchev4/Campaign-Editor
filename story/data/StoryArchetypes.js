@@ -1,0 +1,1 @@
+export const archetypes=[{name:"Hero Journey",nodes:[]}]

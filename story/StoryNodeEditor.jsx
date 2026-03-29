@@ -1,0 +1,1 @@
+export default function StoryNodeEditor(){return (<div className="p-4">Story Graph Editor Placeholder</div>)}
