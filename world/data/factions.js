@@ -1,0 +1,1 @@
+export const factions=[{name:"Iron Legion",alignment:"Neutral"}];

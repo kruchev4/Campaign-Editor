@@ -1,0 +1,1 @@
+export default function MapEditor(){return (<div className="p-4">Map Editor Placeholder</div>)}
