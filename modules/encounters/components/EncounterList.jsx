@@ -1,0 +1,1 @@
+export default function EncounterList(){return (<div className="p-4">Encounter List Placeholder</div>)}

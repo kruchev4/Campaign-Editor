@@ -1,0 +1,1 @@
+export function calculateCR(monsters){return monsters.reduce((a,m)=>a+(m.cr||0),0);}

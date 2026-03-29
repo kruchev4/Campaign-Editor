@@ -1,0 +1,1 @@
+export default function EncounterForm(){return (<div className="p-4">Encounter Form Placeholder</div>)}

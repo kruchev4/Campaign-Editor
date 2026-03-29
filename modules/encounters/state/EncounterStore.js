@@ -1,0 +1,1 @@
+import {create} from "zustand";export const useEncounterStore=create((set)=>({encounters:[],addEncounter:(e)=>set(s=>({encounters:[...s.encounters,e]}))}));

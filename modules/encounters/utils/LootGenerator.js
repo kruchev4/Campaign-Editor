@@ -1,0 +1,1 @@
+export function generateLoot(){return ["Gold coins","Healing potion"];}

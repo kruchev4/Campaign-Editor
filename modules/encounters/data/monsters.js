@@ -1,0 +1,1 @@
+export const monsters=[{name:"Goblin",cr:0.25},{name:"Orc",cr:0.5},{name:"Dragon Whelp",cr:2}];

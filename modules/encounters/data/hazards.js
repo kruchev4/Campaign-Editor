@@ -1,0 +1,1 @@
+export const hazards=["Falling rocks","Poisonous spores","Arcane instability"];
