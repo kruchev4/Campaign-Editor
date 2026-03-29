@@ -1,0 +1,1 @@
+export const nodeTypes={arc:{label:"Arc"},quest:{label:"Quest"}};

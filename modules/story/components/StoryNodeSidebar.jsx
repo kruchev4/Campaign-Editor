@@ -1,0 +1,1 @@
+export default function StoryNodeSidebar(){return (<div className="p-4">Node Sidebar Placeholder</div>)}
