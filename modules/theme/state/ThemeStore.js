@@ -1,0 +1,1 @@
+import {create} from "zustand";export const useThemeStore=create((set)=>({currentTheme:null,setTheme:(t)=>set({currentTheme:t})}));

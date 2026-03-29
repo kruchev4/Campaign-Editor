@@ -1,0 +1,1 @@
+export const themes=[{name:"Horror",palette:{primary:"#550000"}},{name:"Epic Fantasy",palette:{primary:"#0044aa"}}];

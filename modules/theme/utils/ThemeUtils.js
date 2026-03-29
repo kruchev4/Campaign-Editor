@@ -1,0 +1,1 @@
+export function applyTheme(theme){return theme;}
